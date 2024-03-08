@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <form onsubmit="return validate()" action="message.html">
+        <label > Username</label>
+        <input type="text" id="uname" placeholder="Enter Username"/>
+        <label id="user" style="color: red; visibility:hidden">Invalid</label>
+        <br>
+        <br>
+        <label > Password</label>
+        <input type="password" id="pass" placeholder="Enter Password"/>
+        <label id="password" style="color: red; visibility:hidden">Invalid password</label>
+        <label id="shorts" style="color: red; visibility:hidden">Password too short</label>
+        <br>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="js/script.js">
+        
+    </script>
+    
+</body>
+</html>
